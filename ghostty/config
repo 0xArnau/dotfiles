@@ -1,0 +1,11 @@
+term = xterm-256color
+theme = dark:GruvboxDarkHard,light:GruvboxLight
+
+font-family = CaskaydiaCove Nerd Font Mono
+font-thicken = true
+font-size = 16
+
+window-height = 34
+window-width = 134
+
+font-feature = -calt -ss01
