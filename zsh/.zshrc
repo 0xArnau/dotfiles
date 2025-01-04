@@ -77,3 +77,5 @@ alias ll='eza -lhaF --color=always --icons --hyperlink'
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
+
+~/dotfiles/zsh/cowsay.sh
