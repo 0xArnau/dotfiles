@@ -72,6 +72,7 @@ alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
 alias ll='eza -lhaF --color=always --icons --hyperlink'
+alias hx='helix'
 
 # Shell integrations
 eval "$(fzf --zsh)"

@@ -57,9 +57,9 @@
     #   org.gradle.daemon.idletimeout=3600000
     # '';
 
-    ".zshrc".source = ./zsh/.zshrc;
+    ".zshrc".source =  config.lib.file.mkOutOfStoreSymlink "~/dotfiles/zsh/.zshrc";
 
-    ".config.ghostty.config".source = ./ghostty/config;
+    ".config.ghostty.config".source = config.lib.file.mkOutOfStoreSymlink "~/dotfiles/ghostty/config";
   };
 
   # Home Manager can also manage your environment variables through
