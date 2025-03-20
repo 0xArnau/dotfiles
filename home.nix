@@ -39,7 +39,7 @@
     pkgs.lolcat
   ];
 
-  nixpkgs.config.allowUnfreePredicate = 
+  nixpkgs.config.allowUnfreePredicate =
     pkg: builtins.elem (pkgs.lib.getName pkg) [
     ];
 
@@ -57,7 +57,7 @@
     #   org.gradle.daemon.idletimeout=3600000
     # '';
 
-    ".zshrc".source =  config.lib.file.mkOutOfStoreSymlink "~/dotfiles/zsh/.zshrc";
+    ".zshrc".source = ./zsh/.zshrc;
 
     ".config.ghostty.config".source = config.lib.file.mkOutOfStoreSymlink "~/dotfiles/ghostty/config";
   };
@@ -79,7 +79,7 @@
   #  /etc/profiles/per-user/st4r/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-    EDITOR = "neovim";
+    EDITOR = "hx";
   };
 
   # Let Home Manager install and manage itself.

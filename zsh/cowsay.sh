@@ -12,3 +12,4 @@ if [ -z "$DISTRO" ]; then
 fi
 
 echo -e "$DATE ($TIME) \n$OS ($DISTRO) " | cowsay -f stegosaurus | lolcat
+# fortune | cowsay -f stegosaurus | lolcat
