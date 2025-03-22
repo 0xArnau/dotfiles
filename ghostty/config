@@ -4,7 +4,8 @@ theme = dark:GruvboxDarkHard,light:GruvboxLight
 # theme = Dracula
 # theme = DoomOne
 
-font-family = CaskaydiaCove Nerd Font Mono
+#font-family = CaskaydiaMono NF
+font-family = MartianMono NF
 font-thicken = true
 font-size = 16
 

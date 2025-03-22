@@ -35,6 +35,8 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
 
+    pkgs.nodejs_22
+    
     pkgs.cowsay
     pkgs.lolcat
     pkgs.helix
