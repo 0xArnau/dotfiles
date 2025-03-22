@@ -49,6 +49,7 @@
     pkgs.zellij
     pkgs.btop
     pkgs.macchina
+    pkgs.tldr
 
     pkgs.nerd-fonts.martian-mono
     pkgs.nerd-fonts.caskaydia-mono
