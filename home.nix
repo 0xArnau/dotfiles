@@ -46,6 +46,9 @@
     pkgs.starship
     pkgs.zoxide
     pkgs.eza
+    pkgs.zellij
+    pkgs.btop
+    pkgs.macchina
 
     pkgs.nerd-fonts.martian-mono
     pkgs.nerd-fonts.caskaydia-mono
