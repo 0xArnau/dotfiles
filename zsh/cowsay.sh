@@ -11,5 +11,5 @@ if [ -z "$DISTRO" ]; then
   fi
 fi
 
-echo -e "$DATE ($TIME) \n$OS ($DISTRO) " | cowsay -f stegosaurus | lolcat
+echo "$DATE ($TIME) \n$OS ($DISTRO) " | cowsay -f stegosaurus | lolcat
 # fortune | cowsay -f stegosaurus | lolcat

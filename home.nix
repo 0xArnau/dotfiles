@@ -37,6 +37,14 @@
 
     pkgs.cowsay
     pkgs.lolcat
+    pkgs.helix
+    pkgs.fzf
+    pkgs.starship
+    pkgs.zoxide
+    pkgs.eza
+
+    pkgs.nerd-fonts.martian-mono
+    pkgs.nerd-fonts.caskaydia-mono
   ];
 
   nixpkgs.config.allowUnfreePredicate =
