@@ -37,6 +37,8 @@
 
     pkgs.nodejs_22
     
+    pkgs.jdk
+    
     pkgs.cowsay
     pkgs.lolcat
     pkgs.helix
