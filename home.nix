@@ -50,6 +50,7 @@
     pkgs.btop
     pkgs.macchina
     pkgs.tldr
+    pkgs.nushell
 
     pkgs.nerd-fonts.martian-mono
     pkgs.nerd-fonts.caskaydia-mono
